@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+input{
+    display: block;
+    margin-bottom: 0.5em;
+}
+.error{color: red;}
+.done{
+    text-decoration: line-through;
+    color: gray;
+}

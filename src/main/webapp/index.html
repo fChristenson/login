@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="login">
+<head>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="se/fidde/login/view/css/main.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-resource.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/restangular/1.3.1/restangular.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+
+<script type="text/javascript" src="se/fidde/login/controller/Login.js"></script>
+<script type="text/javascript" src="se/fidde/login/controller/LoginController.js"></script>
+<script type="text/javascript" src="se/fidde/login/controller/TodoController.js"></script>
+<script type="text/javascript" src="se/fidde/login/model/service/LoginService.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Login</h1>
+        </header>
+       
+        <div ui-view></div>       
+    </div>
+</body>
+</html>
